@@ -1,4 +1,4 @@
-
+#MANUFACTURING COST AND PROFITABILITY ANALYSIS
 qty = int(input("Products produced: "))
 material = float(input("Material quantity: ")) * float(input("Cost per material unit: "))
 waste = float(input("Wastage percentage: "))
