@@ -1,4 +1,4 @@
-
+#PROGRESSIVE ELECTRICITY BILL
 def bill(units):
     energy = min(units, 100)*2
     energy += min(max(units-100, 0), 100)*3
