@@ -1,4 +1,4 @@
-
+#HOSPITAL BILLING AND PATIENT CLASSIFICATION
 age = int(input("Age: "))
 income = float(input("Annual income: "))
 consult = float(input("Consultation charge: "))
