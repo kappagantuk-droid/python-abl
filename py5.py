@@ -1,4 +1,4 @@
-
+#MULTI-PLANNING TELECOMMUNICATION COST OPTIMIZATION
 plans = [("A", 199, 2, 200, 100, 28),("B", 299, 5, 500, 200, 28),("C", 399, 10, 1000, 300, 56),("D", 499, 15, 1500, 500, 84)]
 
 data = float(input("Data used (GB): "))
