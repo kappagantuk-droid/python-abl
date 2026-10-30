@@ -1,4 +1,4 @@
-
+#RETAIL BILLING WITH MULTIPLE DISCOUNT RULES
 tax_rates = {"grocery": 0.05, "clothing": 0.08,
              "electronics": 0.18, "other": 0.12}
 items = []
