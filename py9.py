@@ -1,3 +1,4 @@
+#MULTI CURRENCY TRAVEL BUDGET ANALYSIS
 rates = {"INR": 1, "USD": 85, "EUR": 95, "GBP": 110}
 
 budget = float(input("Budget in INR: "))
