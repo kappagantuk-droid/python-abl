@@ -1,4 +1,4 @@
-
+#CAMPUS EVENT FINANCIAL PLANNING
 venue = float(input("Venue cost: "))
 equipment = float(input("Equipment cost: "))
 catering = float(input("Catering per participant: "))
