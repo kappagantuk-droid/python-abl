@@ -1,3 +1,4 @@
+#RAILWAY FARE AND RESERVATION CALCULATOR
 distance = float(input("Distance in km: "))
 age = int(input("Passenger age: "))
 travel_class = input("Class (Sleeper/AC3/AC2/First): ").lower()
