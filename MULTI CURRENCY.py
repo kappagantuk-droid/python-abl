@@ -9,7 +9,6 @@ for i in range(n):
     category = input("Category: ")
     amount = float(input("Amount: "))
     currency = input("Currency (INR/USD/EUR/GBP): ").upper()
-
     if currency in rates:
         expense = amount * rates[currency] * (1 + fee / 100)
         totals[category] = totals.get(category, 0) + expense
