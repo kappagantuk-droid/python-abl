@@ -2,11 +2,9 @@
 distance = float(input("Distance in km: "))
 age = int(input("Passenger age: "))
 travel_class = input("Class (Sleeper/AC3/AC2/First): ").lower()
-
 basic = min(distance, 100)*1
 basic += min(max(distance-100, 0), 400)*0.8
 basic += max(distance-500, 0)*0.6
-
 charges = {"sleeper": 0, "ac3": 250, "ac2": 500, "first": 1000}
 if travel_class not in charges:
     print("Invalid class")
