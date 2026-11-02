@@ -7,7 +7,6 @@ certificate = float(input("Certificate per participant: "))
 n = int(input("Expected participants: "))
 fee = float(input("Registration fee: "))
 sponsor = float(input("Sponsorship: "))
-
 fixed = venue + equipment
 variable = catering + transport + certificate
 cost = fixed + variable*n
@@ -16,7 +15,6 @@ print("Total event cost:", cost)
 print("Total income:", income)
 print("Shortfall:", max(cost-income, 0))
 print("Surplus:", max(income-cost, 0))
-
 contribution = fee-variable
 if contribution > 0:
     remaining = max(fixed-sponsor, 0)
