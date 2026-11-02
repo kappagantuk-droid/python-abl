@@ -7,7 +7,6 @@ def bill(units):
     surcharge = energy*0.05 if energy > 2000 else 0
     rebate = energy*0.05 if energy < 500 else 0
     return energy + 100 + surcharge - rebate
-
 previous = float(input("Previous bill: "))
 for month in range(1, 4):
     units = float(input("Units consumed: "))
